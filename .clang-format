@@ -1,0 +1,13 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 0
+
+BreakBeforeBraces: Attach   # <- THIS gives your style
+
+AllowShortIfStatementsOnASingleLine: false
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+
+IndentCaseLabels: true
+SpaceBeforeParens: ControlStatements
+PointerAlignment: Left
